@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 400px;
+    margin: 150px auto;
+}
+
+.form input {
+    width: 20%;
+}
+.form input,
+.form button{
+    padding: 10px;
+    border-color: transparent;
+    bottom: 1px solid;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+tb{
+    bottom: 1px solid;
+    padding: 10px;
+}
+
+body {
+    background-image: url(./img/msg-1001885844296-619.jpg);
+        /* animation-name: sky;
+        animation-duration: 40s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+
+
+@keyframes sky {
+    0%{
+background-position: 100% 60%;
+    }
+    100%{
+        background-position: 0% 0%;
+    }
+}
